@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: white;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    object-fit: contain;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav .active {
+    color: green;
+}
+
+.login {
+    padding: 5px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 40px;
+}
+
+.form {
+    width: 45%;
+}
+
+.form h1 {
+    font-size: 32px;
+}
+
+.form span {
+    color: orange;
+}
+
+.form p {
+    margin: 10px 0 20px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+
+.send {
+    width: 100%;
+    padding: 12px;
+    background: #023020;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    gap: 15px;               
+}
+
+.logo-img {
+    width: 250px;
+}
+
+.coffee-img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #097969;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    margin-top: 40px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+    width: 30%;
+}
+
+.socials {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.socials img {
+    width: 25px;
+    cursor: pointer;
+}

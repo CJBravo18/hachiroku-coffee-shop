@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background: white;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    object-fit: contain;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav .active {
+    color: green;
+}
+
+.login {
+    padding: 5px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.title {
+    padding: 30px 40px;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-icon {
+    width: 25px;
+    height: auto;
+}
+
+.title h1 {
+    font-size: 32px;
+}
+
+.title span {
+    color: orange;
+}
+
+.filters {
+    margin-top: 15px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.filters button {
+    margin-right: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}
+
+.filters .active {
+    background: #023020;
+    color: white;
+    border: none;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 20px 40px;
+}
+
+.card {
+    background: #097969;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+.btns {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btns button {
+    flex: 1;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    background: white;
+    font-weight: bold;
+    transition: 0.2s;
+}
